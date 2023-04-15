@@ -43,3 +43,6 @@ elif cevap == 0:
     metin = input("Deşifrelemek istediğiniz metni giriniz: ")
     desifrelenmis = desifrele(metin)
     print("Deşifrelenmiş metin: "+desifrelenmis)
+
+else:
+    print("Lütfen 1 veya 0 tuşlayınız")
